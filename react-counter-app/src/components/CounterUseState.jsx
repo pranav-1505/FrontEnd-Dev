@@ -4,10 +4,7 @@ function CounterUseState(){
     const[count, setCount]=useState(0)
 
     const increment = () =>setCount(count +1)
-    
-
     const decrement = () => setCount(prevCount => Math.max(prevCount - 1, 0));
-
     const Reset = () => setCount(0)
     
 
